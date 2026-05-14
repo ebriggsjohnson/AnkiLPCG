@@ -28,3 +28,9 @@ or at your option, any later version.
 <img src="docs/screenshots/importing.png" alt="Importing content into LPCG" width=300>
 <img src="docs/screenshots/studying.png" alt="Studying on the desktop" width=300>
 <img src="docs/screenshots/iphone.jpg" alt="Studying on an iPhone" width=200>
+
+
+## AI use
+
+As yet, I have not used any kind of AI assistance or tooling to work on any part of LPCG.
+In the future, I may make moderate use of AI agents to update LPCG.
