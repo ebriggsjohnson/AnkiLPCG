@@ -6,6 +6,14 @@ LPCG is licensed under the GNU AGPL version 3,
 or at your option, any later version.
 
 
+## This fork
+
+This fork adds saved poem sources, editing in place, and switching between
+breakdown cards and full-poem review. See [fork notes](FORK_NOTES.md) for
+installation, usage, and compatibility details.
+
+The original project is [sobjornstad/AnkiLPCG](https://github.com/sobjornstad/AnkiLPCG).
+
 ## How do I...
 
 * **Install LPCG**: Visit its [AnkiWeb page][awp].
@@ -32,5 +40,5 @@ or at your option, any later version.
 
 ## AI use
 
-As yet, I have not used any kind of AI assistance or tooling to work on any part of LPCG.
-In the future, I may make moderate use of AI agents to update LPCG.
+The saved-poem enhancements in this fork were developed with AI assistance.
+The original project's AI-use statement applies to its upstream work.

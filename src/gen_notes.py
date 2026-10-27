@@ -216,13 +216,19 @@ def cleanse_text(string: str, config: Dict[str, Any]) -> List[str]:
             if last_line.strip() or i.strip():
                 new_text.append(i)
             last_line = i
+        # A blank/comment-only source has no cards to generate.
+        if not new_text:
+            return []
         # remove lone newlines at beginning and end
         for i in (0, -1):
+            if not new_text:
+                break
             if not new_text[i].strip():
                 del new_text[i]
         return new_text
 
-    text = string.splitlines()
+    text = [line for line in string.splitlines()
+            if not line.lstrip().startswith("#")]
     # record a level of indentation if appropriate
     text = [re.sub(r'^[ \t]+', r'<indent>', i) for i in text]
     # remove comments and normalize blank lines

@@ -1,6 +1,6 @@
 .PHONY: all addon docs forms clean
 
-all: docs forms addon
+all: docs addon
 docs:
 	$(MAKE) -C docs html
 forms: src/import_dialog5.py src/import_dialog6.py
